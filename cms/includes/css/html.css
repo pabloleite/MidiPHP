@@ -1,0 +1,61 @@
+* {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#767676;
+	line-height:22px;
+}
+body {
+	margin:0px;
+	padding:0px;
+	background:#ffffff url(../../gfx/bg.jpg) top center no-repeat;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a img{
+	border:none;
+}
+
+p {
+	margin-top:10px;
+	margin-bottom:2px;
+	line-height:23px;
+}
+
+
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0px;
+	font-size:17px;
+	font-weight:bold;
+	color:#8A8A8A;
+	line-height:30px;
+	margin-bottom:20px;
+	font-style:italic;
+	letter-spacing:-1px;
+}
+h1 a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:23px;
+	font-weight:bold;
+	color:#87161A;
+	font-style:italic;
+	letter-spacing:-1px;
+}
+select {
+	line-height:17px;
+	border:1px solid #C3C3C3;
+	padding:2px;
+}
+hr {
+	border:none;
+	height:1px;
+	background:#EEE;
+}
+form {
+	margin:0px;
+	padding:0px;
+}

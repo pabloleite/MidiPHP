@@ -1,0 +1,34 @@
+# Configurações PHP
+php_flag register_globals "Off"
+php_value output_buffering "Off"
+php_value date.timezone "America/Sao_Paulo"
+
+# Opções gerais
+Options -Indexes
+#DirectorySlash Off
+
+
+# RewriteEngine
+RewriteEngine on
+# --PhpThumb
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^thumb/(.*)$ lib/GdThumb/PHPThumb.php$1 [L,QSA]
+# --Public images
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{QUERY_STRING} !skip_rewrite
+RewriteRule ^public/images/(.*)$ layout_image.php?image=$1 [L]
+
+
+
+# GARBAGE
+# CSS interpretado pelo PHP
+# <IfModule mod_mime.c>
+# 	AddType application/x-httpd-php .css
+# </IfModule>
+# 
+# <IfModule mod_headers.c>
+# 	<FilesMatch "\.(css|)$">
+# 		Header set Content-Type text/css
+# 	</FilesMatch>
+# </IfModule>

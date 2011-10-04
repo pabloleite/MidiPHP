@@ -1,0 +1,57 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#3d3d3d;
+}
+body {
+	margin:0px;
+	padding:0px;
+	background:#fff url(../../gfx/bgLogin.jpg) top center no-repeat;
+}
+p {
+	line-height:15px;
+}
+
+
+#frmLogin {
+	margin:0px;
+	padding:0px;
+}
+#login {
+	width:340px;
+	margin:0px auto;
+	margin-top:100px;
+	text-align:center;
+}
+#loginLogo {
+	text-align:center;
+}
+#login label {
+	margin-left:5px;
+}
+#login .error {
+	font-weight:bold;
+	font-size:13px;
+	color:#890A0D;
+}
+#login .sucess {
+	font-weight:bold;
+	font-size:13px;
+	color:#29631F;
+}
+#login input {
+	background:url(../../gfx/bgInputLogin.gif) top left no-repeat;
+	color:#575757;
+	font-size:16px;
+	font-weight:bold;
+	border:none;
+	width:170px;
+	height:29px;
+	padding:7px 6px 0px 6px;
+}
+#login input.inputImage {
+	padding:0px;
+	margin:0px;
+	background:#FFF; !important
+	border:none;
+}

@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+#order-module { margin-right: -200px; }
+#order-module * {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: inherit;
+	color: inherit;
+	line-height: normal;
+}
+
+#taskbar { padding-top: 30px; clear: both; min-height: 630px; }
+#taskbar .label {}
+
+#taskbar ul { list-style: none; margin: 0; padding-left: 22px; margin-top: 13px; height: 0; }
+#taskbar ul li
+{
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	clear: both;
+	list-style: none;
+	background: url(../../gfxnew/div-h.gif) repeat-x bottom;
+	height: 33px; margin: 0; padding: 0;
+	
+	color: #858798;
+	font-size: 11px;
+}
+#taskbar ul li.nobg { background: none; }
+#taskbar ul li > label { min-height: 21px; margin-top: 2px; padding-top: 9px; display: block; }
+#taskbar ul li > label > input { float: left; margin-left: 2px; margin-top: 0px; margin-right: 7px; padding: 0; }
+#taskbar ul li > label:hover { background: #EFEFEE; }
+
+#taskbar #filters { float: left; width: 270px; height: 430px; margin: 0; padding: 0; padding-right: 40px; margin-right: 26px; background: url(../../gfxnew/anew_bgtaskbar.png) no-repeat right 40px; }
+#taskbar #filters .stepli { float: right; font-family: "Lucida Grande", sans-serif; color: #b3b3b3; }
+#taskbar #filters #searchbox1 { float: left; margin-bottom: 3px; margin-left: 4px; }
+#taskbar #filters #searchbox2 { float: left; margin-left: 10px; clear: left; }
+#taskbar #filters #searchbox2 .search div { padding-top: 5px; padding-bottom: 1px; }
+#taskbar #filters #searchbox2 .search input { float: left; width: 98px; height: 26px; line-height: 26px; background: url(../../gfxnew/taskbar_txtinput.gif) no-repeat; border: none; padding-left: 10px; padding-right: 6px; font-size: 11px; color: #858798; }
+#taskbar #filters .searchbtn { float: right; margin-top: 0px; margin-right: 60px; line-height: 24px; cursor: pointer; }
+#taskbar #filters .searchbtn img { vertical-align: top; margin-top: 3px; }
+#taskbar #filters #search-refbtn { margin-left: 187px; margin-top: 336px; }
+
+#taskbar #sorts { float: left; width: 270px; height: 430px; padding-right: 40px; margin-right: 26px; background: url(../../gfxnew/anew_bgtaskbar.png) no-repeat right 40px; }
+#taskbar #relat { float: left; }
+#taskbar #relat #selfheader { width: 513px; height: 54px; background: url(../../gfxnew/taskbar_selfheader.gif) no-repeat; padding-left: 31px; }
+#taskbar #relat #selfheader .lbl { float: left; padding-top: 31px; font-weight: bold; color: #7f7f7f; }
+#taskbar #relat > table { font-size: 11px; color: #7f7f7f; padding-left: 14px; }
+#taskbar #relat > table tr.tr1 { background-color: #efefef; }
+#taskbar #relat > table td { padding: 5px 0; }
+
+#list-form { margin-left: -270px; margin-top: 30px; }
+#listbar { height: 56px; min-width: 286px; background: url(../../gfxnew/taskbar_header4.gif) no-repeat; }
+#listtbl { background: url(../../gfxnew/listtbl_headturn.gif) no-repeat; padding-left: 12px; padding-top: 13px; margin-left: 3px; font-size: 11px; }
+#listtbl > table { width: 100%; text-align: left; color: #898989; }
+#listtbl > table th { text-align: left; }
+#listtbl > table #supheader { height: 43px; background: url(../../gfxnew/listtbl_headbg.gif) repeat-x; color: #FFF; font-weight: bold; }
+#listtbl > table #supheader > :first-child { padding-left: 8px; }
+#listtbl > table #supheader a { color: #FFF; font-weight: bold; text-decoration: none; }
+#listtbl > table #supheader img { margin: 0 4px; margin-bottom: 1px; vertical-align: bottom; }
+#listtbl > table #supheader img.high { margin-bottom: 3px; }
+#listtbl > table #supheader span { color: #d8e7f4; }
+#listtbl > table #supsepar th { padding: 0; padding-left: 4px; }
+#listtbl > table #supsepar > :first-child { padding-left: 8px; }
+
+#listtbl > table .trorder { height: 60px; background: url(../../gfxnew/div-h.gif) repeat-x bottom; }
+#listtbl > table .trorder td.bold { font-weight: bold; color: #505050; }
+#listtbl > table .trorder #progchart { width: 332px; height: 27px; background: no-repeat; }
+#listtbl > table .trorder #progchart #status { padding-left: 130px; padding-top: 7px; }
+#listtbl > table .trorder #togglebtn { float: left; background: url(../../gfxnew/listtbl_act_expand.gif) no-repeat; width: 25px; height: 34px; }
+#listtbl > table .trorder.open { background: none; }
+#listtbl > table .trorder.open #togglebtn { background-position: -25px 0; }
+#listtbl > table .trpreload { height: 398px; background: url(../../gfxnew/div-h.gif) repeat-x bottom #ebebeb; display: none; }
+
+#listtbl > table #expandtbl { background: url(../../gfxnew/div-h.gif) repeat-x bottom; width: 100%; }
+#listtbl > table #expandtbl img { vertical-align: middle; }
+#listtbl > table #expandtbl .separ { padding: 8px 0 6px 0 !important; }
+#listtbl > table #expandtbl .separ div { border-top: solid 1px #dedede; }
+#listtbl > table #expandtbl p { margin: 0; margin-bottom: 4px;  }
+#listtbl > table #expandtbl tr.tritem > td { background: url(../../gfxnew/div-h.gif) repeat-y right #ebebeb; width: 25%; position: relative; height: 398px; }
+#listtbl > table #expandtbl tr.tritem > :last-child { background-image: none; }
+#listtbl > table #expandtbl #col1 { padding-right: 2px; }
+#listtbl > table #expandtbl #txt-intro { color: #ababab; }
+#listtbl > table #expandtbl #txt-intro span { color: #666666; }
+#listtbl > table #expandtbl #itensheader { width: 100%; margin-top: 20px; }
+#listtbl > table #expandtbl #itensheader th { color: #ababab; }
+#listtbl > table #expandtbl #itenswraper { margin-top: 6px; }
+#listtbl > table #expandtbl #itenswraper table { width: 100%; text-align: left; }
+#listtbl > table #expandtbl #itenswraper table td { color: #4098dc; }
+#listtbl > table #expandtbl #totaltbl { width: 100%; border-left: none; border-right: none; text-align: right; font-size: 11px; }
+#listtbl > table #expandtbl #totaltbl tr { height: 18px; }
+#listtbl > table #expandtbl #totaltbl td:first-child { width: 210px; padding-right: 15px; }
+#listtbl > table #expandtbl #totaltbl td:last-child { color: #4098dc; font-weight: bold; padding-right: 10px; }
+#listtbl > table #expandtbl #totaltbl .total td { color: #363636 !important; font-weight: bold; }
+#listtbl > table #expandtbl #obsarea { margin: 0 12px; margin-top: 10px; }
+#listtbl > table #expandtbl #obsarea #wrap { float: left; padding: 4px; margin-top: 3px; background: #dddfe6; }
+#listtbl > table #expandtbl #obsarea #wrap textarea { background: #FFF; width: 265px; height: 40px; overflow: auto; font-family: inherit; font-size: 11px; }
+
+#listtbl > table #expandtbl td.stepcol { text-align: center; color: #464646; line-height: 16px; }
+#listtbl > table #expandtbl td.stepcol #suboverlay { height: 0; overflow: visible; }
+#listtbl > table #expandtbl td.stepcol #overlay { background: #FFF; opacity: 0.75; filter: alpha(opacity = 75); -moz-opacity: 0.75; width: 100%; height: 100%; }
+#listtbl > table #expandtbl td.stepcol #sizewrap { height: 245px; padding-top: 17px; padding-bottom: 10px; }
+#listtbl > table #expandtbl td.stepcol p.limarkup { background: url(../../gfxnew/expandtbl_bullet.gif) no-repeat left 4px; display: inline; padding-left: 16px; }
+#listtbl > table #expandtbl td.stepcol p.linestatus { width: 210px; margin: 0 auto; line-height: 14px; }
+#listtbl > table #expandtbl td.stepcol #identtbl { padding: 5px 0; }
+#listtbl > table #expandtbl td.stepcol #identtbl tr { height: 16px; }
+#listtbl > table #expandtbl td.stepcol #identtbl td:first-child { text-align: right; padding-right: 15px; font-weight: bold; }
+#listtbl > table #expandtbl td.stepcol #identtbl td:last-child { text-align: left; }
+#listtbl > table #expandtbl td.stepcol .databox { color: #4098dc; margin-bottom: 0; }
+#listtbl > table #expandtbl td.stepcol select#send-state { vertical-align: middle; background: #f6f6f6; border-color: #cdcdcd; }
+#listtbl > table #expandtbl td.stepcol input#knowcod-input { height: 16px; vertical-align: middle; border: solid 1px #cdcdcd; width: 100px; background: #f6f6f6; }
+#listtbl > table #expandtbl td.stepcol #state3_knowcod_label.disabled { color: #b3b3b3; }
+#listtbl > table #expandtbl td.stepcol #zover-blank { position: relative; z-index: 9999; background: white; margin: 0 7px; border: solid 1px #e4e4e4; }

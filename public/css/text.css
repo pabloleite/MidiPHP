@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* webfonts declarations import */
+@import url("../fonts/quicksand_book/stylesheet.css"); /* QuicksandBook - "QuicksandBook", Arial, Helvetica, sans-serif; */
+@import url("../fonts/quicksand_bold/stylesheet.css"); /* QuicksandBold - "QuicksandBold", Arial, Helvetica, sans-serif; */
+
+
+/* text colors */
+.txt-default { color: #7a7a7a; }
+.txt-default a { color: #7a7a7a; }
+.txt-default a:hover { color: #833494; }
+.txt-marine { color: #36209f; }
+.txt-marine a { color: #36209f; }
+.txt-marine a:hover { color: #5ca209; }
+.txt-hardgray { color: #494949; }
+.txt-bluish { color: #2A9DD0; }
+
+
+.textwall-normal { color: #4F4F4F; }
+.textwall-normal a { color: #4F4F4F; }
+.textwall-normal h1 { margin: 0; font: 22px "QuicksandBook", Arial, Helvetica, sans-serif; font-weight: normal; color: #5ca209; letter-spacing: -1px; }
+.textwall-normal h2 { margin: 0; margin-top: 18px; margin-bottom: 5px; font-size: 16px; font-weight: normal; color: #3a3a3a; } /* uso: texto das páginas */
+.textwall-normal h3 { margin: 0; margin-bottom: 10px; font-size: 15px; font-weight: normal; } /* uso: detalhes do produtos */
+.textwall-normal p { text-align: justify; line-height: 24px; margin-bottom: 10px; }
+.textwall-normal p #thumb { float: left; }
+
+.header-pattern .h1 { margin: 0; font-size: 25px; color: black; letter-spacing: -1px; font-weight: normal; }
+.header-pattern .h2 { margin: 0; font-size: 20px; color: #494949; }
